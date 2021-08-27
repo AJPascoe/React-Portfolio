@@ -4,7 +4,7 @@ import Portfolio from "./Components/portfolio/Portfolio";
 import Works from "./Components/works/Works";
 import Testimonials from "./Components/testimonials/Testimonials";
 import Contact from "./Components/contact/Contact";
-
+import "./app.scss";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
             <Contact/>
         </div>
         </div>
-    )
+    );
 }
 
 export default App;
