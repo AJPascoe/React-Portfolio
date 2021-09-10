@@ -1,6 +1,7 @@
 .intro{
     background-color: white;
     display: flex;
+    
 
 
     .left{
@@ -43,6 +44,7 @@
 .right {
     flex: 0.5;
     position: relative;
+    
 
     .wrapper {
       width: 100%;
@@ -55,9 +57,27 @@
       h1 {
         font-size: 60px;
         margin: 10px 0;
+             scroll-behavior: smooth; // slows dowmn the scroll
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; // for firefox
+
         span {
           font-size: inherit;
           color: crimson;
+          
+        }
+
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          50%{
+            opacity: 1,
+          }
+          100% {
+            opacity: 0;
+          }
         }
 
       }
@@ -66,17 +86,6 @@
       }
       h3 {
         font-size: 30px;
-
-
-
-        
-
-        .ityped-cursor {
-          animation: blink 1s infinite;
-        }
-
-        
-
         }
         a {
       position: absolute;
@@ -87,14 +96,7 @@
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
-        }
-      }
-  
+      }  
     }
   }
 }
