@@ -37,9 +37,6 @@ export default function Intro() {
                     </div>
                 </a>
             </div>
-
-        
-            
         </div>
     )
 }

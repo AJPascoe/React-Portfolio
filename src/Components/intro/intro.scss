@@ -1,6 +1,12 @@
 .intro{
     background-color: white;
     display: flex;
+    scroll-behavior: smooth; // slows dowmn the scroll
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; // for firefox
+    &::-webkit-scrollbar{
+        display: none;
+    }
     
 
 
@@ -44,6 +50,12 @@
 .right {
     flex: 0.5;
     position: relative;
+    scroll-behavior: smooth; // slows dowmn the scroll
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; // for firefox
+    &::-webkit-scrollbar{
+        display: none;
+    }
     
 
     .wrapper {
@@ -96,6 +108,12 @@
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
+        scroll-behavior: smooth; // slows dowmn the scroll
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; // for firefox
+        &::-webkit-scrollbar{
+            display: none;
+        }
       }  
     }
   }
