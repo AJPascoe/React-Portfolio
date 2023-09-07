@@ -43,7 +43,7 @@ export default function Portfolio() {
       <div className="container">
         <div className="item">
           <img className="bankimg" src="assets/bankapp.jpg" alt="" />
-          <h3>Project 1</h3>
+          <a href="https://master--weatherapi-reactapp.netlify.app/" target="_blank" rel="noopenner">Weather API App</a>
         </div>
         <div className="item">
           <img className="bankimg" src="assets/bankapp.jpg" alt="" />
