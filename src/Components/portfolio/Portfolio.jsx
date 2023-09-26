@@ -54,8 +54,8 @@ export default function Portfolio() {
           <a href="https://ajpascoe.github.io/DrumKitChallenge/" target="_blank" rel="noopenner">Drum Kit App</a>
         </div>
         <div className="item">
-          <img className="bankimg" src="assets/bankapp.jpg" alt="" />
-          <h3>Project 4</h3>
+          <img className="bankimg" src="assets/eventkey.jpg" alt="" />
+          <a href="https://ajpascoe.github.io/Key-Code-Challenge/" target="_blank" rel="noopenner">Event Key App</a>
         </div>
         <div className="item">
           <img className="bankimg" src="assets/bankapp.jpg" alt="" />
