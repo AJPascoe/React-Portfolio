@@ -50,8 +50,8 @@ export default function Portfolio() {
           <a href="https://main--todo-list-2-app.netlify.app/" target="_blank" rel="noopenner">To-Do List App</a>
         </div>
         <div className="item">
-          <img className="bankimg" src="assets/bankapp.jpg" alt="" />
-          <h3>Project 3</h3>
+          <img className="bankimg" src="assets/drumkit.jpg" alt="" />
+          <a href="https://ajpascoe.github.io/DrumKitChallenge/" target="_blank" rel="noopenner">Drum Kit App</a>
         </div>
         <div className="item">
           <img className="bankimg" src="assets/bankapp.jpg" alt="" />
