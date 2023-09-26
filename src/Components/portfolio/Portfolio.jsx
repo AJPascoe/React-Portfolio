@@ -57,14 +57,14 @@ export default function Portfolio() {
           <img className="bankimg" src="assets/eventkey.jpg" alt="" />
           <a href="https://ajpascoe.github.io/Key-Code-Challenge/" target="_blank" rel="noopenner">Event Key App</a>
         </div>
-        <div className="item">
+        {/* <div className="item">
           <img className="bankimg" src="assets/bankapp.jpg" alt="" />
           <h3>Project 5</h3>
         </div>
         <div className="item">
           <img className="bankimg" src="assets/bankapp.jpg" alt="" />
           <h3>Project 6</h3>
-        </div>
+        </div> */}
       </div>
     </div>
   );
