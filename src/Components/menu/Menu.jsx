@@ -1,4 +1,4 @@
-import "./menu.scss";
+import "./menu.css";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
   return (
@@ -11,7 +11,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#portfolio">Porfolio</a>
         </li>
         <li>
-          <a href="#works">Works</a>
+          <a href="#works">CV</a>
         </li>
         <li>
           <a href="#testimonials">Testimonials</a>

@@ -1,3 +1,4 @@
+
 {
   "name": "portfolio",
   "version": "0.1.0",
@@ -9,14 +10,13 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "ityped": "^1.0.3",
-    "node-scss": "^9.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "NODE_OPTIONS='--openssl-legacy-provider' CI= react-scripts build"
   },
   "eslintConfig": {

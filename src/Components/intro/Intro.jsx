@@ -1,4 +1,4 @@
-import "./intro.scss";
+import "./intro.css";
 import { init } from 'ityped';
 
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';

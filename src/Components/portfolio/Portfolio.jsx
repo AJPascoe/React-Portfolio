@@ -1,6 +1,6 @@
 import {  useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
-import "./portfolio.scss";
+import "./portfolio.css";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");

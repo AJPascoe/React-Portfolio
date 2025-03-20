@@ -1,4 +1,4 @@
-import "./portfolioList.scss";
+import "./portfolioList.css";
 
 export default function PortfolioList({ id, title, active, setSelected }) {
   return (
